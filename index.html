@@ -1,29 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
 <head>
-  <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
-     </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
 <body>
-<ul class="menu">
- <li class="links"><a href="#welcome">Home</a>
-</li>
- <li class="links"><a href="#video">Classwork</a>
-</li>
- <li class="links"><a href="#works">Important Info</a>
-</li>
-</ul>
-<section id="welcome">
-    
-  <div class="main_div">
-    <h1>Person of the Day : Ada Lovelace</h1>
-      <h2>Hi am know for being a mathematician and writer,known for my work on Charles Babbage's proposed mechanical general-purpose computer.To learn more please double-click on the titles.</h2>
-    </div> 
-    </section>
-    <section id="video">
-    <h1>Videos</h1><br>
-    <iframe width="760" height="450" src="https://docs.google.com/presentation/d/1KsIQdAmjITKfWfSAtM6eoTep8DhoqlQTZIBvh96TWLY/edit?usp=sharing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-    </section>
-    <section id="works">
-        <h1>Information</h1><br>
-      <p>No school on November 14th 2020 due to Diwali and on the 13th due to spelling bee that day
-        </p>
-    </section>
+<nav class="navbar-inverse" style="position:sticky; top:0; z-index:99;">
+<div class="navbar-header">
+<button type="button"class="navbar-toggle"data-toggle="collapse"data-target="#menu">
+    <span class="icon-bar">
+    </span>
+    <span class="icon-bar">
+    </span>
+    <span class="icon-bar">
+    </span>
+    </button>
+</div>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="nav navbar-nav">
+<li><a href="#travel">Travel</a></li>
+ <li><a href="#movies">Movies</a></li>
+<li>Books </li>
+<li>Enviornment </li>
+<li>Help to the Society </li>
+<li>Contact </li>
+    </ul>
+</div>
+    </nav>
+    <div class="container">
+<div class="page-header" id="travel">
+<h2 class="text-capitalize">Places You Must Visit!</h2>       
+    </div>
+    <div>
+ <center ><img class="img-responsive"src="BeachErosion.jpg">
+<h3>St.Augustine Beach</h3>
+<h4>In September 2020 I went to St.Augustine Beach to have a getaway from the Coronavirus-19 Pamdemic and have fun finaaly after 9 months!This would be fun as during this pamdemic I never really met friends.Finaaly once I got there I started to rejoice and play with my freinds.Sadly it did not last so long and we left after 3 days.</h4>
+</center>
+</div>
+<div class="page-header">
+<h2 class="text-capitalize">Movie You Have to Watch!</h2>
+</div>
+<div class="bg-primary movie_head"data-toggle="collapse" data-target="#movie">
+<span class="glyphicon glyphicon-film"></span>Avengers Endgame
+<span class="glyphicon glyphicon-chevron-down"></span>
+</div>
+</div>
+    </body>
+</html>
